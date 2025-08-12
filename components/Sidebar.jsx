@@ -33,3 +33,14 @@ export default function Sidebar(){
     </aside>
   )
 }
+const nav = [
+  { href: "/", label: "Home" },
+  { href: "/apps", label: "Apps" },            // NEW
+  { href: "/onboarding", label: "Onboarding" },
+  { href: "/dashboard", label: "Dashboard" },
+  { href: "/affiliate", label: "Affiliate" },
+  { href: "/qna", label: "Q&A" },
+  { href: "/media", label: "Media" },
+  { href: "/profile", label: "Profile" },
+  { href: "/settings", label: "Settings" },
+];
