@@ -1,15 +1,14 @@
-// Canonical map of icon keys → public asset paths
 export const ICONS = {
-  SmartAsk:   "/assets/icons/smartask-icon.png",
-  SmartCoin:  "/assets/icons/smartcoin-icon.png",
-  SmartHub:   "/assets/icons/smarthub-icon.png",
-  SmartMail:  "/assets/icons/smartmail-icon.png",
-  SmartNotes: "/assets/icons/smartnotes-icon.png",
-  SmartSounds:"/assets/icons/smartsounds-icon.png",
-  SmartTalk:  "/assets/icons/smarttalk-icon.png",
-  SmartVault: "/assets/icons/smartvault-icon.png",
-  SmartFeed:  "/assets/icons/smartfeed-icon.png",
-  SmartSync:  "/assets/icons/smartsync-icon.png",
-  ShopSmart:  "/assets/icons/shopsmart-icon.png",
-  SmartWorld: "/assets/icons/smartworld-icon.png"
+  SmartAsk:   "/assets/icons/smartask-icon.svg",
+  SmartCoin:  "/assets/icons/smartcoin-icon.svg",
+  SmartHub:   "/assets/icons/smarthub-icon.svg",
+  SmartMail:  "/assets/icons/smartmail-icon.svg",
+  SmartNotes: "/assets/icons/smartnotes-icon.svg",
+  SmartSounds:"/assets/icons/smartsounds-icon.svg",
+  SmartTalk:  "/assets/icons/smarttalk-icon.svg",
+  SmartVault: "/assets/icons/smartvault-icon.svg",
+  SmartFeed:  "/assets/icons/smartfeed-icon.svg",
+  SmartSync:  "/assets/icons/smartsync-icon.svg",
+  ShopSmart:  "/assets/icons/shopsmart-icon.svg",
+  SmartWorld: "/assets/icons/smartworld-icon.svg",
 };
