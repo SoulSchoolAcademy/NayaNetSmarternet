@@ -3,15 +3,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const NAV = [
-  { href: "/",          label: "Home" },
-  { href: "/apps",      label: "Apps" },
-  { href: "/onboarding",label: "Onboarding" },
+  { href: "/",        label: "Feed" },       // Home = feed
+  { href: "/apps",    label: "Apps" },
   { href: "/dashboard", label: "Dashboard" },
-  { href: "/affiliate", label: "Affiliate" },
-  { href: "/qna",       label: "Q&A" },
-  { href: "/media",     label: "Media" },
-  { href: "/profile",   label: "Profile" },
-  { href: "/settings",  label: "Settings" }
+  { href: "/profile", label: "Profile" },
+  { href: "/settings",label: "Settings" }
 ];
 
 export default function Sidebar() {
@@ -35,9 +31,7 @@ export default function Sidebar() {
           </Link>
         ))}
       </nav>
-      <div className="mt-8 text-xs text-[color:var(--muted)] opacity-70 px-2">
-        © {new Date().getFullYear()} SmartNet
-      </div>
+      <div className="mt-8 text-xs text-[color:var(--muted)] opacity-70 px-2">© {new Date().getFullYear()} SmartNet</div>
     </aside>
   );
 }
