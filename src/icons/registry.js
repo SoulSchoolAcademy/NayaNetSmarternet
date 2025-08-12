@@ -10,5 +10,10 @@ export const ICONS = {
   SmartFeed:  "/assets/icons/smartfeed-icon.svg",
   SmartSync:  "/assets/icons/smartsync-icon.svg",
   ShopSmart:  "/assets/icons/shopsmart-icon.svg",
-  SmartWorld: "/assets/icons/smartworld-icon.svg"
+  SmartWorld: "/assets/icons/smartworld-icon.svg",
+
+  // NEW
+  AvatarStudio:   "/assets/icons/avatarstudio-icon.svg",
+  ViralOptimizer: "/assets/icons/viraloptimizer-icon.svg",
+  VisualAnswers:  "/assets/icons/visualanswers-icon.svg"
 };
