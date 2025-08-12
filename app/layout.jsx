@@ -1,8 +1,8 @@
 export const metadata = { title: "SmartNet", description: "SmartNet Pro scaffold" };
 
 import "./globals.css";
-import Sidebar from "@/components/Sidebar";
-import Topbar from "@/components/Topbar";
+import Sidebar from "../components/Sidebar";
+import Topbar from "../components/Topbar";
 
 export default function RootLayout({ children }) {
   return (
