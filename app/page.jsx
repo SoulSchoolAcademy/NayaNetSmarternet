@@ -1,13 +1,13 @@
 import Link from "next/link";
-import AppIcon from "../src/icons/AppIcon"; // relative import
+import AppIcon from "../src/icons/AppIcon";
 
-export default function Page() {
+export default function Page(){
   return (
     <section className="grid grid-cols-1 xl:grid-cols-2 gap-6">
       <div className="card">
         <div className="badge mb-3">Welcome</div>
         <h1 className="text-4xl font-extrabold leading-tight">
-          Beautiful. Fast. Functional.<br />The SmartNet pro starter.
+          Beautiful. Fast. Functional.<br/>The SmartNet pro starter.
         </h1>
         <p className="text-[color:var(--muted)] mt-2">
           Polished UI, sidebar layout, KPIs, charts, and real routes. Built to deploy without drama.
