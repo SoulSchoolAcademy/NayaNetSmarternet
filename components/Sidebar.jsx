@@ -4,14 +4,14 @@ import { usePathname } from "next/navigation";
 
 const NAV = [
   { href: "/",          label: "Home" },
-  { href: "/apps",      label: "Apps" },      // keeps the Divine 12 entry
+  { href: "/apps",      label: "Apps" },
   { href: "/onboarding",label: "Onboarding" },
   { href: "/dashboard", label: "Dashboard" },
   { href: "/affiliate", label: "Affiliate" },
   { href: "/qna",       label: "Q&A" },
   { href: "/media",     label: "Media" },
   { href: "/profile",   label: "Profile" },
-  { href: "/settings",  label: "Settings" },
+  { href: "/settings",  label: "Settings" }
 ];
 
 export default function Sidebar() {
@@ -41,4 +41,3 @@ export default function Sidebar() {
     </aside>
   );
 }
-
