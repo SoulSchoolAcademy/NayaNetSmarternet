@@ -1,0 +1,27 @@
+# Ignore heavy/non-runtime stuff so Vercel doesn't upload it each build
+*.psd
+*.ai
+*.sketch
+*.zip
+*.rar
+
+# Videos / raw media
+*.mp4
+*.mov
+*.avi
+*.wav
+
+# Design dumps / screenshots / exports
+/design/**
+/exports/**
+/raw/**
+/screenshots/**
+
+# Docs and PDFs not needed at runtime
+/docs/**
+**/*.pdf
+
+# Node & editor junk
+node_modules
+.vscode
+.DS_Store
