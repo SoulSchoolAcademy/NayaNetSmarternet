@@ -10,5 +10,5 @@ export const ICONS = {
   SmartFeed:  "/assets/icons/smartfeed-icon.svg",
   SmartSync:  "/assets/icons/smartsync-icon.svg",
   ShopSmart:  "/assets/icons/shopsmart-icon.svg",
-  SmartWorld: "/assets/icons/smartworld-icon.svg",
+  SmartWorld: "/assets/icons/smartworld-icon.svg"
 };
