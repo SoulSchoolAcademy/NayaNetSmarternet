@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AppIcon from "@/src/icons/AppIcon";
+import AppIcon from "../src/icons/AppIcon"; // <= RELATIVE PATH, LEAVE AS-IS
 
 export default function Page(){
   return (
@@ -41,6 +41,9 @@ export default function Page(){
         </div>
       </div>
     </section>
+  )
+}
+
   )
 }
 
