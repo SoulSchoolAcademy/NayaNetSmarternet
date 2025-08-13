@@ -3,11 +3,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const NAV = [
-  { href: "/hub",           label: "Overview" },
-  { href: "/hub/analytics", label: "Analytics" },
-  { href: "/hub/mail",      label: "Mail" },
-  { href: "/hub/affiliates",label: "Affiliates" },
-  { href: "/hub/settings",  label: "Settings" },
+  { href: "/hub",            label: "Overview" },
+  { href: "/hub/analytics",  label: "Analytics" },
+  { href: "/hub/mail",       label: "Mail" },
+  { href: "/hub/leaderboard",label: "Leaderboard" }, // NEW
+  { href: "/hub/affiliates", label: "Affiliates" },
+  { href: "/hub/settings",   label: "Settings" }
 ];
 
 export default function HubSidebar(){
@@ -21,12 +22,4 @@ export default function HubSidebar(){
       <nav className="grid gap-1">
         {NAV.map(n=>(
           <Link key={n.href} href={n.href}
-            className={`px-3 py-2 rounded-xl hover:bg-[#121a31] transition ${p===n.href?'bg-[#121a31] text-white':'text-[color:var(--muted)]'}`}>
-            {n.label}
-          </Link>
-        ))}
-        <Link href="/" className="px-3 py-2 rounded-xl mt-2 btn btn-secondary text-center">Back to Social</Link>
-      </nav>
-    </aside>
-  );
-}
+            className={`px-
