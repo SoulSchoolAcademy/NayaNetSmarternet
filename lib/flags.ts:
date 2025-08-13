@@ -1,0 +1,10 @@
+export const flags = {
+  auth: !!process.env.CLERK_PUBLISHABLE_KEY || !!process.env.NEXTAUTH_SECRET,
+  db: !!process.env.DATABASE_URL,
+  storage: !!process.env.S3_BUCKET || !!process.env.R2_BUCKET,
+  realtime: !!process.env.ABLY_KEY || !!process.env.PUSHER_KEY || !!process.env.SUPABASE_URL,
+  email: !!process.env.RESEND_API_KEY || !!process.env.TWILIO_ACCOUNT_SID,
+  payments: !!process.env.STRIPE_SECRET_KEY || !!process.env.PAYPAL_CLIENT_ID,
+  search: !!process.env.ALGOLIA_APP_ID || !!process.env.MEILI_URL,
+  shortener: !!process.env.BITLY_TOKEN,
+};
