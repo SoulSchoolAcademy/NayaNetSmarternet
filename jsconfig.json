@@ -1,9 +1,7 @@
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"]
-    }
-  }
-}
-
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  // Avoid huge upfront builds: use ISR by default for feed-like routes
+  experimental: { instrumentationHook: false }
+};
+module.exports = nextConfig;
